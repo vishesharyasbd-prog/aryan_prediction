@@ -1,0 +1,218 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aryan Prediction | Official Channel</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1396162499264792');
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1396162499264792&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
+
+<style>
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html, body {
+    width:100%;
+    min-height:100%;
+}
+
+body {
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:16px;
+    background:
+    radial-gradient(ellipse at 50% 10%, #29200c 0%, transparent 48%),
+    linear-gradient(145deg,#050505,#111111,#050505);
+    font-family:Arial, sans-serif;
+    color:#fff;
+}
+
+.container {
+    width:100%;
+    max-width:390px;
+    margin:auto;
+}
+
+.card {
+    width:100%;
+    padding:32px 22px 25px;
+    text-align:center;
+    border:1px solid rgba(232,190,91,.32);
+    border-radius:23px;
+    background:rgba(255,255,255,.055);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+    box-shadow:0 15px 50px rgba(0,0,0,.55);
+}
+
+.logo {
+    width:82px;
+    height:82px;
+    margin:0 auto 17px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    border:2px solid #d9ad50;
+    background:linear-gradient(145deg,#29200d,#090909);
+    box-shadow:0 0 25px rgba(226,179,76,.25);
+    color:#f5d58c;
+    font-size:27px;
+    font-weight:900;
+    letter-spacing:1px;
+}
+
+h1 {
+    font-size:27px;
+    font-weight:800;
+    letter-spacing:1px;
+    color:#f5d58c;
+    margin-bottom:9px;
+}
+
+.subtitle {
+    font-size:13px;
+    color:#bcbcbc;
+    line-height:1.5;
+    margin-bottom:21px;
+}
+
+.line {
+    width:55px;
+    height:2px;
+    margin:0 auto 21px;
+    background:#d7ac54;
+    border-radius:10px;
+}
+
+.info {
+    padding:13px 10px;
+    border-radius:12px;
+    background:rgba(255,255,255,.045);
+    border:1px solid rgba(255,255,255,.08);
+    margin-bottom:20px;
+    font-size:13px;
+    color:#e4e4e4;
+}
+
+.join-btn {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:9px;
+    padding:16px 12px;
+    border-radius:12px;
+    text-decoration:none;
+    color:#090909;
+    font-size:16px;
+    font-weight:900;
+    letter-spacing:.5px;
+    background:linear-gradient(100deg,#d6a642,#ffe5a1,#d6a642);
+    box-shadow:0 0 12px rgba(245,195,83,.45),
+               0 0 28px rgba(245,195,83,.22);
+    animation:glow 2s infinite alternate;
+    transition:.2s;
+}
+
+.join-btn:active {
+    transform:scale(.97);
+}
+
+@keyframes glow {
+    from {
+        box-shadow:0 0 10px rgba(245,195,83,.35);
+    }
+    to {
+        box-shadow:0 0 25px rgba(245,195,83,.75),
+                   0 0 40px rgba(245,195,83,.25);
+    }
+}
+
+.footer {
+    margin-top:19px;
+    font-size:10px;
+    line-height:1.5;
+    color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <main class="card">
+
+        <div class="logo">AP</div>
+
+        <h1>ARYAN PREDICTION</h1>
+
+        <p class="subtitle">
+            Welcome To Our Official Cricket Analysis Channel
+        </p>
+
+        <div class="line"></div>
+
+        <div class="info">
+            🏏 Cricket Updates • Match Analysis • Insights
+        </div>
+
+        <a class="join-btn"
+           id="joinButton"
+           href="https://t.me/+3v1Wka4JcKA3Yjg1">
+           ✈ JOIN TELEGRAM CHANNEL
+        </a>
+
+        <div class="footer">
+            Official Aryan Prediction Channel<br>
+            Cricket Analysis & Information
+        </div>
+</main>
+</div>
+
+<script>
+document.getElementById('joinButton').addEventListener('click', function(e) {
+
+    e.preventDefault();
+
+    const telegramLink = this.href;
+
+    // Subscribe event on join button click
+    if (typeof fbq === 'function') {
+        fbq('track', 'Subscribe');
+    }
+
+    // Allow pixel event to enter the browser queue
+    setTimeout(function() {
+        window.location.href = telegramLink;
+    }, 500);
+
+});
+</script>
+
+</body>
+</html>
